@@ -1,15 +1,19 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
-html,body,.wrapper {
+html,
+body,
+.wrapper {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
@@ -36,28 +40,6 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
-}
-
-#options{
-  border-radius: 5px; 
-  border:solid 2px; 
-  border-color:#c0c7cf;
-  border-style: dashed;
-  padding:20px;
-  background-color:hsl(360, 91%, 36%);;
-}
-
-#option{  
-  display:inline-block;
-}
-
-#passwordlength{
-  position:absolute; top:0px; left:70px; width:80px;
-}
-
-p{
-  display:inline;
-  color: #f9fbfd;
 }
 
 .card-header::after {
